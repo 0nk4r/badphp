@@ -1,7 +1,7 @@
 
 <?php
 // index.php - Main entry point
-include 'config.php';
+// include 'config/database.php';
 ?>
 
 <!DOCTYPE html>
@@ -88,39 +88,39 @@ include 'config.php';
         </header>
         
         <div class="grid">
-            <a href="login.php" class="tile">
+            <a href="moudules/login.php" class="tile">
                 <div class="tile-number">1</div>
                 <h3>Login System</h3>
             </a>
-            <a href="file_upload.php" class="tile">
+            <a href="moudules/file_upload.php" class="tile">
                 <div class="tile-number">2</div>
                 <h3>File Upload</h3>
             </a>
-            <a href="sql_query.php" class="tile">
+            <a href="moudules/sql_query.php" class="tile">
                 <div class="tile-number">3</div>
                 <h3>SQL Query Builder</h3>
             </a>
-            <a href="pdf_generator.php" class="tile">
+            <a href="moudules/pdf_generator.php" class="tile">
                 <div class="tile-number">4</div>
                 <h3>PDF Generator</h3>
             </a>
-            <a href="user_profile.php" class="tile">
+            <a href="moudules/user_profile.php" class="tile">
                 <div class="tile-number">5</div>
                 <h3>User Profile</h3>
             </a>
-            <a href="search.php" class="tile">
+            <a href="moudules/search.php" class="tile">
                 <div class="tile-number">6</div>
                 <h3>Search Function</h3>
             </a>
-            <a href="api.php" class="tile">
+            <a href="moudules/api.php" class="tile">
                 <div class="tile-number">7</div>
                 <h3>API Endpoint</h3>
             </a>
-            <a href="config_editor.php" class="tile">
+            <a href="moudules/config_editor.php" class="tile">
                 <div class="tile-number">8</div>
                 <h3>Config Editor</h3>
             </a>
-            <a href="feedback.php" class="tile">
+            <a href="moudules/feedback.php" class="tile">
                 <div class="tile-number">9</div>
                 <h3>Feedback Form</h3>
             </a>
